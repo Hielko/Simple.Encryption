@@ -1,0 +1,29 @@
+trigger:
+  branches:
+    include:
+    - master
+pool:
+  name: TeamMarjolijn
+
+steps:
+ - task: DotNetCoreCLI@2
+   inputs:
+     command: 'pack'
+     packagesToPack: '**/*Encryption*.csproj'
+     #packagesToPack: '**.csproj'
+     configuration: 'Release'
+ - task: DotNetCoreCLI@2
+   displayName: 'dotnet test'
+   inputs:
+    command: test
+    projects: '**/*Test*.csproj'
+    arguments: '-c Debug --collect "Code Coverage"'
+
+# - task: NuGetCommand@2
+#   inputs:
+#     command: 'push'
+#     packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg'
+#     nuGetFeedType: 'internal'
+#     publishVstsFeed: 'b5f95ab2-c297-40bc-9c09-3c13ca6074bc'
+#     allowPackageConflicts: true
+#     publishPackageMetadata: false

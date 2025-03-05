@@ -1,0 +1,10 @@
+# Global ignores
+
+.vs/
+.vscode/
+.config/
+bin/
+obj/
+node_modules/
+appsettings-schema.json
+/www/Aevitae.csproj.user
