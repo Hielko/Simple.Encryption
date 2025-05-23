@@ -1,8 +1,8 @@
-using Hielko.Encryption;
+using Simple.Encryption;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddHielkoEncryption(builder.Configuration);
+builder.Services.AddSimpleEncryption(builder.Configuration);
 
 // Add services to the container.
 builder.Services.AddRazorPages();

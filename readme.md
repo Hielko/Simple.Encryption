@@ -1,20 +1,20 @@
 #Omschrijving
-Dit is de .NET6 versie van de Hielko.Encryption package
+Dit is de .NET6 versie van de Simple.Encryption package
 Met deze service kan je strings encrypten en decrypten met een key die configureerbaar is.
 
 #Installatie
 Installeer de package via NuGet:
 ```code
-Install-Package Hielko.Encryption
+Install-Package Simple.Encryption
 
 In je startup.cs toevoegen:
-    services.AddHielkoEncryption(_config);
+    services.AddSimpleEncryption(_config);
 ```
 
 #Configuratie
 De onderstaande VOORBEELD configuratie kan toegevoegd aan de appsettings:
 ```
-  "Hielko": {
+  "Simple": {
     "Encryption": {
       "Key": "A546C4DF2A8CF5931469B24222322301"
     }

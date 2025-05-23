@@ -1,7 +1,7 @@
 @echo off
 
-@rem nuget.exe push "*.nupkg" -ApiKey AzureDevOps -source "Perplex"
+@rem nuget.exe push "*.nupkg" -ApiKey AzureDevOps -source "SimpleEncryption"
 
-nuget.exe push "..\Encryption\bin\Release\Perplex.Encryption.1.0.10.nupkg" -ApiKey AzureDevOps -source "Perplex" -SkipDuplicate
+nuget.exe push "..\SimpleEncryption\bin\Release\SimpleEncryption.1.0.0.nupkg" -ApiKey AzureDevOps -source "SimpleEncryption" -SkipDuplicate
 
 PAUSE

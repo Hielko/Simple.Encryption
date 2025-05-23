@@ -1,4 +1,4 @@
-﻿namespace Hielko.Encryption
+﻿namespace Simple.Encryption
 {
     public interface IEncryption
     {

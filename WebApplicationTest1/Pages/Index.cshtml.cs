@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Hielko.Encryption;
+using Simple.Encryption;
 
 namespace WebApplicationTest1.Pages
 {

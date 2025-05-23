@@ -1,4 +1,4 @@
-﻿namespace Hielko.Encryption
+﻿namespace Simple.Encryption
 {
     using System.IO;
     using System.Security.Cryptography;
