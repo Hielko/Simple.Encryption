@@ -5,9 +5,9 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
-    <Title>Hielko.Encryption voor encrypten en decrypten van strings</Title>
-    <Description>Hielko.Encryption voor encrypten en decrypten van strings</Description>
-    <Copyright>Hielko</Copyright>
+    <Title>Simple.Encryption voor encrypten en decrypten van strings</Title>
+    <Description>Simple.Encryption voor encrypten en decrypten van strings</Description>
+    <Copyright>Simple.Encryption</Copyright>
     <PackageReleaseNotes>tbd</PackageReleaseNotes>
     <PackageIcon>icon.png</PackageIcon>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
