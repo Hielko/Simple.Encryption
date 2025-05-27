@@ -13,6 +13,7 @@
     <PackageReadmeFile>readme.md</PackageReadmeFile>
     <PackageTags>encryption</PackageTags>
     <Version>1.0.20</Version>
+    <PackageProjectUrl>https://github.com/Hielko/Simple.Encryption</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
