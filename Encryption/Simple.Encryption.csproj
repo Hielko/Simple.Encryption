@@ -12,7 +12,7 @@
     <PackageIcon>icon.png</PackageIcon>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
     <PackageTags>encryption</PackageTags>
-    <Version>1.0.10</Version>
+    <Version>1.0.20</Version>
   </PropertyGroup>
 
   <ItemGroup>
