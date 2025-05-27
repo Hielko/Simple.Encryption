@@ -1,18 +1,19 @@
-#Omschrijving
-Dit is de .NET6 versie van de Simple.Encryption package
-Met deze service kan je strings encrypten en decrypten met een key die configureerbaar is.
+# Description
+This is the NET 8 version of the Simple.Encryption package 
+This service for MVC allows you to encrypt and decrypt strings with a configurable key.
 
-#Installatie
-Installeer de package via NuGet:
+
+# Installation
+Install the package via NuGet:
 ```code
 Install-Package Simple.Encryption
 
-In je startup.cs toevoegen:
+In the startup.cs add:
     services.AddSimpleEncryption(_config);
 ```
 
-#Configuratie
-De onderstaande VOORBEELD configuratie kan toegevoegd aan de appsettings:
+# Configuration
+The EXAMPLE configuration below can be added to the appsettings:
 ```
   "Simple": {
     "Encryption": {
@@ -22,12 +23,12 @@ De onderstaande VOORBEELD configuratie kan toegevoegd aan de appsettings:
 ```
 
 
-#Key maken
-Kan bijvoorbeeld met deze tool:
+# Create Key
+Use this for example:
 https://cloud.google.com/network-connectivity/docs/vpn/how-to/generating-pre-shared-key
 
 
-#Voorbeeld gebruik
+# Usage
 ```
 public class ClassTest
     {
